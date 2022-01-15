@@ -1,3 +1,5 @@
+// Merge sort uses the concept of divide-and-conquer to sort the given list of elements.
+// It breaks down the problem into smaller subproblems until they become simple enough to solve directly.
 function merge(left, right) {
     let arr = []
     while (left.length && right.length) { 
